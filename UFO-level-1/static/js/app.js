@@ -9,7 +9,7 @@ var button = d3.select("#filter-btn");
 button.on("click", function() {
   
     //Delete any table in the body portion on the webpage to clear previous results
-    var tablebody = d3.select("tbody");
+  var tablebody = d3.select("tbody");
     tablebody.html(""); 
 
   // Select the input element and get the raw HTML node
